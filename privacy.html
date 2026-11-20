@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – GTA Clipper</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color: #1d1d1f; background: #fff; margin: 0; line-height: 1.6; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 24px 80px; }
+  h1 { font-size: 2rem; margin: 0 0 4px; }
+  h2 { font-size: 1.2rem; margin-top: 2.2em; }
+  .meta { color: #6e6e73; margin-bottom: 2em; }
+  a { color: #0b57d0; }
+  nav { border-bottom: 1px solid #e5e5ea; padding: 14px 24px; font-size: .95rem; }
+  nav a { margin-right: 18px; text-decoration: none; }
+  ul { padding-left: 1.3em; }
+</style>
+</head>
+<body>
+<nav><a href="index.html"><strong>GTA Clipper</strong></a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav>
+<main>
+<h1>Privacy Policy</h1>
+<p class="meta">GTA Clipper · Last updated: 20 November 2026</p>
+
+<h2>1. Who we are</h2>
+<p>GTA Clipper is a private, internal software tool operated by Tobias Bentsen, an independent developer based in Denmark. It runs on the operator's own computer and is used only by the operator to edit short gameplay highlight videos and post them to the operator's own TikTok account and YouTube channel. It is not offered, sold or distributed to other users.</p>
+
+<h2>2. Platforms and APIs used</h2>
+<p>GTA Clipper uses the <strong>TikTok Login Kit and Content Posting API</strong> and <strong>YouTube API Services</strong> to publish videos to the operator's own accounts. TikTok's handling of data is described in the <a href="https://www.tiktok.com/legal/privacy-policy">TikTok Privacy Policy</a>. By using the YouTube features you are bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, and Google's handling of data is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h2>3. Information we access, collect and store</h2>
+<p><strong>TikTok.</strong> When the operator connects a TikTok account, GTA Clipper requests only the <code>user.info.basic</code> and <code>video.publish</code> scopes and stores:</p>
+<ul>
+  <li>TikTok access and refresh tokens and the account's open ID, in a local file on the operator's computer.</li>
+  <li>Basic profile information returned by TikTok (display name and avatar) and the creator settings returned by the creator info endpoint (available privacy levels, interaction settings, maximum video length), used only to show the posting screen.</li>
+  <li>Publish results: the publish ID, post status and post link of videos GTA Clipper posts.</li>
+</ul>
+<p><strong>YouTube.</strong> When the operator signs in with Google, GTA Clipper requests only the <code>youtube.upload</code> scope and stores the OAuth tokens and the ID, URL, title, description, tags and status of uploaded videos.</p>
+<p>GTA Clipper does not access or store any other TikTok, YouTube or Google account data, and it does not collect information about viewers, commenters or any other people. It does not use cookies, tracking pixels or analytics, and it does not store information on any other user's device.</p>
+
+<h2>4. How the information is used</h2>
+<ul>
+  <li>To post finished videos, with their caption, title, description and tags, to the operator's own TikTok account and YouTube channel.</li>
+  <li>To confirm that an upload succeeded and show its status and link in the tool's local dashboard.</li>
+  <li>To avoid uploading the same video twice.</li>
+</ul>
+
+<h2>5. Sharing</h2>
+<p>Information obtained through the TikTok and YouTube APIs is not sold, shared with or disclosed to any third party. It never leaves the operator's computer except in the requests sent directly to TikTok and Google/YouTube to perform uploads.</p>
+
+<h2>6. Storage, retention and deletion</h2>
+<ul>
+  <li>All data is stored locally on the operator's computer in a local database and token file. Nothing is stored on external servers.</li>
+  <li>Stored platform data (post status and metadata) is refreshed or deleted within 30 days.</li>
+  <li>OAuth tokens are kept only until access is revoked. When access is revoked, the token file is deleted.</li>
+  <li>You can revoke GTA Clipper's access to TikTok at any time in the TikTok app under Settings and privacy → Security and permissions → Apps and services permissions, and to Google on the Google security settings page: <a href="https://security.google.com/settings/security/permissions">https://security.google.com/settings/security/permissions</a>. After revocation, stored data for that platform is deleted within 7 days.</li>
+  <li>You can also request deletion of stored data at any time by email (see below). It will be deleted within 7 days.</li>
+</ul>
+
+<h2>7. Security</h2>
+<p>Tokens and data are kept on a password-protected computer and are never committed to source control or shared.</p>
+
+<h2>8. Changes</h2>
+<p>If this policy changes, the updated version will be published on this page with a new date.</p>
+
+<h2>9. Contact</h2>
+<p>Tobias Bentsen · <a href="mailto:bentsen@nextlevel-sales.dk">bentsen@nextlevel-sales.dk</a></p>
+</main>
+</body>
+</html>
