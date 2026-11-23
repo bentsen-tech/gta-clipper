@@ -3,45 +3,125 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GTA Clipper</title>
+<title>GTA Clipper by Bentsen – GTA 6 highlight clips for TikTok</title>
+<meta name="description" content="Desktop tool that turns GTA 6 Twitch stream highlights into vertical videos and posts them to the creator's own TikTok account.">
+<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAMFBMVEX////+/f7r4fDBncCyfZ2SWaVpMbReJbddJLZcIrZcIbZbIbZaIbZXHLdSFrZOEbIVGYiQAAADxklEQVR42sWVW0wcVRiAv7O7XIXdM5QiEdwdLKhBha3Q1MDaQH3QxKfWWB9MMV4SH0x40tT4Yo2+So2X2NDESxpjSmNardoaqmBBowIFoX2ywMq2JZi6cxYUWGTn+DALO1MJidHoPP1z5pv/fv5f9LL54+P/BwKA/RVQHvWcZ/qyZ6IXEo8Dq/3eH9uAX8YhAJmdzUDeG8oN/NYM1DdECYAOjwAFtkfD1AhQEnZ8oKwmK7icb4LkmpOkhhSZMQ9wRy+ifR1g7n383ihWulkkB4im68P3N3Hhb2RSbvxNrANqY0CvA+Ym2v0d+OLFJYA9Nb3i2LKnppcNqBBmm1MLIS2wJ56QP528G0dKvrobDK2cMPWoCRef6VSVhw5FYfCFTrXlra4ov/pwNABM7Y+dp+zWkxNkdsXOU1Z7biCbkA7H7NZHRoVhXU0vVV55elQY1tWEXenE6miw68MS0PnjY62lBqB/Xxhwa/jmxeXU0nI6vXTbhcNzamk5nQ7OFcgcYLd0UXhz+6IoKKr6bKmwavciiKCZM7EaC+JbVS930XC6GjEpE4264tR8rpqBUULhM/1Pfk1dUJJXeLhToiMTOWBmUGOce14Ok/lWhSrfbBt4GJFw9UPKkkQCT8Uh0AoG+A+gp12AU5vJMchvcV7O4jOvBxAG5DmibSE8gFRSoC2o2PMaQOIA9jtmDgj5BPHwjm1fQhSSwUx9M/5T47k8ZOob1dbEYn61rhwKEljqu6eU/MS4q2m3KK51vL0fbkxISh69tMswbv/E5YP/u4ji+NAURuOxiLaOD00htyt3scaLv0+HZo2i+f6fS/qNgllZtHDa574X9a9EEAZW69HqZyNKGMJq+dEzYfzH7gtZllX3Ef4PHwpZllV3YsbTUZTvvSaKa/derqG8ZRFHcncUTN4fUfKHBY/kAbiUkvFtJsBk3MxKHuCfjEGAEaF9dpM9Gk0ktdBCS9XkMWHv0EKnJmf2xIvzDC0sAyZVTkPcvHxEWL7gzgf3RVdmtS9ZljSsBxrt7NVbjUUH7ceE9tk35cepupJtkOLop6WxNsfJaXQA811Sqic3KqSw16MwEKtwgrTcF5+FW6gREHKPIHFGVhIvt1/CtA3fwaKDGjPljKBsmOHuTEKF5cc9lmGF3jvyQY9SN3zuyoMePhu4lz51V7dUhtp+tKE7FBf5a3lYjck/xPXrwN+Oag/F2hwNoR0QeH3eDVx8DlKhNRPJJBR4S2CPAGEHEPNNbLgOiEgIgP+L4b+upDuHsytJ9G6y1GrNf6Nh/gPgT0EGbikqzcN3AAAAAElFTkSuQmCC">
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAMFBMVEX////+/f7r4fDBncCyfZ2SWaVpMbReJbddJLZcIrZcIbZbIbZaIbZXHLdSFrZOEbIVGYiQAAADxklEQVR42sWVW0wcVRiAv7O7XIXdM5QiEdwdLKhBha3Q1MDaQH3QxKfWWB9MMV4SH0x40tT4Yo2+So2X2NDESxpjSmNardoaqmBBowIFoX2ywMq2JZi6cxYUWGTn+DALO1MJidHoPP1z5pv/fv5f9LL54+P/BwKA/RVQHvWcZ/qyZ6IXEo8Dq/3eH9uAX8YhAJmdzUDeG8oN/NYM1DdECYAOjwAFtkfD1AhQEnZ8oKwmK7icb4LkmpOkhhSZMQ9wRy+ifR1g7n383ihWulkkB4im68P3N3Hhb2RSbvxNrANqY0CvA+Ym2v0d+OLFJYA9Nb3i2LKnppcNqBBmm1MLIS2wJ56QP528G0dKvrobDK2cMPWoCRef6VSVhw5FYfCFTrXlra4ov/pwNABM7Y+dp+zWkxNkdsXOU1Z7biCbkA7H7NZHRoVhXU0vVV55elQY1tWEXenE6miw68MS0PnjY62lBqB/Xxhwa/jmxeXU0nI6vXTbhcNzamk5nQ7OFcgcYLd0UXhz+6IoKKr6bKmwavciiKCZM7EaC+JbVS930XC6GjEpE4264tR8rpqBUULhM/1Pfk1dUJJXeLhToiMTOWBmUGOce14Ok/lWhSrfbBt4GJFw9UPKkkQCT8Uh0AoG+A+gp12AU5vJMchvcV7O4jOvBxAG5DmibSE8gFRSoC2o2PMaQOIA9jtmDgj5BPHwjm1fQhSSwUx9M/5T47k8ZOob1dbEYn61rhwKEljqu6eU/MS4q2m3KK51vL0fbkxISh69tMswbv/E5YP/u4ji+NAURuOxiLaOD00htyt3scaLv0+HZo2i+f6fS/qNgllZtHDa574X9a9EEAZW69HqZyNKGMJq+dEzYfzH7gtZllX3Ef4PHwpZllV3YsbTUZTvvSaKa/derqG8ZRFHcncUTN4fUfKHBY/kAbiUkvFtJsBk3MxKHuCfjEGAEaF9dpM9Gk0ktdBCS9XkMWHv0EKnJmf2xIvzDC0sAyZVTkPcvHxEWL7gzgf3RVdmtS9ZljSsBxrt7NVbjUUH7ceE9tk35cepupJtkOLop6WxNsfJaXQA811Sqic3KqSw16MwEKtwgrTcF5+FW6gREHKPIHFGVhIvt1/CtA3fwaKDGjPljKBsmOHuTEKF5cc9lmGF3jvyQY9SN3zuyoMePhu4lz51V7dUhtp+tKE7FBf5a3lYjck/xPXrwN+Oag/F2hwNoR0QeH3eDVx8DlKhNRPJJBR4S2CPAGEHEPNNbLgOiEgIgP+L4b+upDuHsytJ9G6y1GrNf6Nh/gPgT0EGbikqzcN3AAAAAElFTkSuQmCC">
 <style>
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color: #1d1d1f; background: #fff; margin: 0; line-height: 1.6; }
-  main { max-width: 760px; margin: 0 auto; padding: 56px 24px 80px; }
-  h1 { font-size: 2.4rem; margin: 0 0 8px; }
-  .lead { font-size: 1.15rem; color: #3a3a3c; }
-  .yt { display: inline-flex; align-items: center; gap: 8px; margin: 18px 0; padding: 8px 14px; border: 1px solid #e5e5ea; border-radius: 999px; font-size: .95rem; }
-  .yt span.dot { width: 10px; height: 10px; border-radius: 50%; background: #ff0000; }
-  a { color: #0b57d0; }
-  nav { border-bottom: 1px solid #e5e5ea; padding: 14px 24px; font-size: .95rem; }
-  nav a { margin-right: 18px; text-decoration: none; }
-  footer { border-top: 1px solid #e5e5ea; margin-top: 48px; padding-top: 18px; font-size: .95rem; color: #6e6e73; }
-  footer a { margin-right: 18px; }
-  ol { padding-left: 1.3em; }
+:root{--ink:#16161a;--muted:#5b5b66;--line:#e7e7ee;--bg:#ffffff;--soft:#f6f5fb;--brand:#7b2ff7}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.65;font-size:17px}
+a{color:var(--brand)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+header{border-bottom:1px solid var(--line);background:#fff;position:sticky;top:0;z-index:5}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink);font-weight:800;font-size:19px}
+.brand img{width:38px;height:38px;border-radius:9px}
+nav a{margin-left:22px;color:var(--muted);text-decoration:none;font-size:15px}
+nav a:hover{color:var(--ink)}
+.hero{background:linear-gradient(160deg,#fff4ee 0%,#f3ecff 60%,#fff 100%);padding:80px 0 70px;border-bottom:1px solid var(--line)}
+.hero .wrap{display:grid;grid-template-columns:1.2fr .8fr;gap:48px;align-items:center}
+.hero h1{font-size:46px;line-height:1.1;margin:0 0 18px;letter-spacing:-.02em}
+.hero p.lead{font-size:20px;color:var(--muted);margin:0 0 26px}
+.hero .logo-big{width:100%;max-width:300px;border-radius:44px;box-shadow:0 20px 60px rgba(123,47,247,.25);justify-self:center}
+.btn{display:inline-block;padding:13px 22px;border-radius:12px;background:var(--ink);color:#fff;text-decoration:none;font-weight:600;margin-right:10px}
+.btn.alt{background:#fff;color:var(--ink);border:1px solid var(--line)}
+section{padding:72px 0;border-bottom:1px solid var(--line)}
+section h2{font-size:32px;margin:0 0 10px;letter-spacing:-.01em}
+section p.sub{color:var(--muted);margin:0 0 36px;max-width:720px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:var(--soft);border:1px solid var(--line);border-radius:16px;padding:22px}
+.card h3{margin:0 0 6px;font-size:18px}
+.card p{margin:0;color:var(--muted);font-size:15.5px}
+.steps{counter-reset:s;list-style:none;padding:0;margin:0;display:grid;gap:14px}
+.steps li{counter-increment:s;position:relative;padding:18px 18px 18px 64px;border:1px solid var(--line);border-radius:14px;background:#fff}
+.steps li:before{content:counter(s);position:absolute;left:18px;top:16px;width:32px;height:32px;border-radius:50%;background:var(--ink);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700}
+.faq details{border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-bottom:10px;background:#fff}
+.faq summary{cursor:pointer;font-weight:600}
+.badges span{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:6px 12px;margin:0 8px 8px 0;font-size:14px;background:#fff}
+footer{padding:40px 0;color:var(--muted);font-size:15px}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+footer a{color:var(--muted);margin-right:16px}
+.doc{max-width:780px;margin:0 auto;padding:56px 24px 80px}
+.doc h1{font-size:38px;margin:0 0 6px}
+.doc .meta{color:var(--muted);margin-bottom:28px}
+.doc h2{font-size:22px;margin-top:2.2em}
+.doc h3{font-size:18px;margin-top:1.6em}
+.doc table{border-collapse:collapse;width:100%;font-size:15px;margin:12px 0}
+.doc th,.doc td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+.doc th{background:var(--soft)}
+.toc{background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:14px 22px;font-size:15px}
+@media(max-width:820px){.hero .wrap{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.hero h1{font-size:36px}nav a{margin-left:12px}}
 </style>
 </head>
 <body>
-<nav><a href="index.html"><strong>GTA Clipper</strong></a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav>
-<main>
-<h1>GTA Clipper</h1>
-<p class="lead">A private, internal tool that turns the best moments from GTA 6 Twitch streams into vertical videos and posts them to its operator's own TikTok account and YouTube channel.</p>
-<p class="yt"><span class="dot" style="background:#25F4EE"></span>Uses TikTok Login Kit &amp; Content Posting API</p> <p class="yt"><span class="dot"></span>Uses YouTube API Services (video upload only)</p>
+<header><div class="wrap">
+<a class="brand" href="index.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAMFBMVEX////+/f7r4fDBncCyfZ2SWaVpMbReJbddJLZcIrZcIbZbIbZaIbZXHLdSFrZOEbIVGYiQAAADxklEQVR42sWVW0wcVRiAv7O7XIXdM5QiEdwdLKhBha3Q1MDaQH3QxKfWWB9MMV4SH0x40tT4Yo2+So2X2NDESxpjSmNardoaqmBBowIFoX2ywMq2JZi6cxYUWGTn+DALO1MJidHoPP1z5pv/fv5f9LL54+P/BwKA/RVQHvWcZ/qyZ6IXEo8Dq/3eH9uAX8YhAJmdzUDeG8oN/NYM1DdECYAOjwAFtkfD1AhQEnZ8oKwmK7icb4LkmpOkhhSZMQ9wRy+ifR1g7n383ihWulkkB4im68P3N3Hhb2RSbvxNrANqY0CvA+Ym2v0d+OLFJYA9Nb3i2LKnppcNqBBmm1MLIS2wJ56QP528G0dKvrobDK2cMPWoCRef6VSVhw5FYfCFTrXlra4ov/pwNABM7Y+dp+zWkxNkdsXOU1Z7biCbkA7H7NZHRoVhXU0vVV55elQY1tWEXenE6miw68MS0PnjY62lBqB/Xxhwa/jmxeXU0nI6vXTbhcNzamk5nQ7OFcgcYLd0UXhz+6IoKKr6bKmwavciiKCZM7EaC+JbVS930XC6GjEpE4264tR8rpqBUULhM/1Pfk1dUJJXeLhToiMTOWBmUGOce14Ok/lWhSrfbBt4GJFw9UPKkkQCT8Uh0AoG+A+gp12AU5vJMchvcV7O4jOvBxAG5DmibSE8gFRSoC2o2PMaQOIA9jtmDgj5BPHwjm1fQhSSwUx9M/5T47k8ZOob1dbEYn61rhwKEljqu6eU/MS4q2m3KK51vL0fbkxISh69tMswbv/E5YP/u4ji+NAURuOxiLaOD00htyt3scaLv0+HZo2i+f6fS/qNgllZtHDa574X9a9EEAZW69HqZyNKGMJq+dEzYfzH7gtZllX3Ef4PHwpZllV3YsbTUZTvvSaKa/derqG8ZRFHcncUTN4fUfKHBY/kAbiUkvFtJsBk3MxKHuCfjEGAEaF9dpM9Gk0ktdBCS9XkMWHv0EKnJmf2xIvzDC0sAyZVTkPcvHxEWL7gzgf3RVdmtS9ZljSsBxrt7NVbjUUH7ceE9tk35cepupJtkOLop6WxNsfJaXQA811Sqic3KqSw16MwEKtwgrTcF5+FW6gREHKPIHFGVhIvt1/CtA3fwaKDGjPljKBsmOHuTEKF5cc9lmGF3jvyQY9SN3zuyoMePhu4lz51V7dUhtp+tKE7FBf5a3lYjck/xPXrwN+Oag/F2hwNoR0QeH3eDVx8DlKhNRPJJBR4S2CPAGEHEPNNbLgOiEgIgP+L4b+upDuHsytJ9G6y1GrNf6Nh/gPgT0EGbikqzcN3AAAAAElFTkSuQmCC" alt="GTA Clipper by Bentsen logo">GTA Clipper by Bentsen</a>
+<nav><a href="index.html#features">Features</a><a href="index.html#how">How it works</a><a href="index.html#faq">FAQ</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="index.html#contact">Contact</a></nav>
+</div></header>
+<div class="hero"><div class="wrap">
+<div>
+<h1>Turn the best GTA&nbsp;6 stream moments into ready-to-post vertical videos.</h1>
+<p class="lead">GTA Clipper by Bentsen is a desktop tool that finds highlight moments in GTA&nbsp;6 Twitch streams, edits them into 9:16 videos with subtitles and streamer credit, and lets the creator review and post them to their own TikTok account.</p>
+<a class="btn" href="#how">See how it works</a><a class="btn alt" href="#contact">Contact</a>
+</div>
+<img class="logo-big" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAGQBAMAAABykSv/AAAAMFBMVEX////+///9/P7xy57/r0Hpp26mcqloMLZdI7ZcIbZbIbdbIbZbIbVaIbZWG7dQE7ONXqfPAAAXjklEQVR42u2dfXwU1bnHf2c2Cb6RnV0sRiCbyUAJLxW2bOvb/bSgUpF+VLxaBfyIaK8STPAD5V4bFazae+VFW8RyAcFbRSlixVqUVl4KMZZ7rVpCQpYGUbIZNkgQYWd2LRWBmbl/zL7OzG5msjtJPv2c/WszO09mvuc85znPOec5zyF/wj/HhwEFoSAUhIJQEApCQSgIBaEgFISCUBAKQkEoCAWhIBSEglAQCkJBKAgFoSAUhIJQEApCQSgIBenlT1GW63JzDiEyztF3apO68WySJahmKJvrUY2OggTQjWdnAWE+ylUqmOiotu/I+fN9gh2QYHh5rkcdFBwE2b+vIfu/Z4piuwvW2PukgaDml4JQEApCQSgIBcnh/cY/fK8ULmP62FA+IKHeqEYlVPAa4Uom9HyFqCWzTK+vzadGJps7wTudBBl9r+lY6HReIFjajaFPvk1kjenlmXk1drj8Pa9bpsUk036EglAQCkJBKAgFoSAUhIJQEApCQSgIBaEgFISCUBAKQkEoCAWhIBSEglAQCkJBKAj6bFANw/e5V+VzvnBRIQNbnP1ob1Tyz14j2YL8GU6rGKGvgWQL2yI0BSgFoSAUhIJQEApCQSgIBaHbLix+lCYgwAPKLgkDuO6Ik+9wmnh+Qd/5gcjNxdWsevLXQPGPWRx/yea26jbp8mpW/XSTJh55IZ+Y+3zGI0rT5dcce1Y61wAARRPIJU8qz9goVrl5KnfsWWmPBADkOuJZrO7YN64XQNpOzf/42Z1pY0h+omfJiV9bLdXGgfcuad+ZNt7ji66ZNv7pbuhnniCNU8vm7gyB4QBVggdQ28F8Z9KTFl+lsfr0wl1CXJywmviwa5Z8vd7fsyCN1Yt37gWfPoT2siHwP3j+4O6uSZT98+veCIFX29OnCRSBGTZ94XJ/T4Lsfejh14WM9wAAUhlivjN9cpckyv7a2l0CH9Hv/ucVYfik5cv8PWe19j50X3240jChoYYY30eSNL2jC/H9NTUvMkZxhAj/yaGzK7tD4rq7W3r10/tejJUeM/lFjfKHOjE4dz/bPKf2RV4xE4foLXn/88ffLusZEHnKwlV85LT5jyJ/qHPezktzmbs5s1/kQ1nEvzrjq4/VHu+RNiIf6HzaG8n+uzdS1ZpDO+SqFcsq23N4Tb6OhVe5esLXap36OpODAxHvwdoHs/98YOMyvj2XJQiXb7y8uQdqRB5/VYuS+5bKw48NyjZ53DZzZLgLcUap2rfb8RpROmtbSru4p9238UdZylSeVNsVBxTvp3V7Ha+RlumDOKHL8lGu3Bw0/SV46rGuxcEdPbWOc9ZqyddP/vpYl3ep3rYLImY2VP7Rv3m65kBsyOEfxZytkeCR5YqV+7h+pmq+v8OauPfvB970Owkijx8JwVrje+wif/fFwfleCDvpohzYEVas2QTuNZMqsSyO8FEu7GAbkSf+h1uydmssQsSy7our5R3/KHNOtay2EADgzt8czkM8a96mQoAow66zqOKmb6Jwk6yLk8oZF/mdaiPqpWHFOvWguiGZb6IOsiGuKq+9F3QK5MBrPsH63bFtuuZuTzxMWKdUSx4/OmTL/cnMjGZTHNyUIX5nfK2jCwRbLcr33xkO12fPCPY66213O+Q0RiM+W28S2zYj48+QPfHD7W5n2ohcfZFi602kjD5Dnj1asmdahizq73eiRop/kaX1eTwej7luLU7TLeZTwRyEeDysud3a7IxqtYRMxyE8L4qiyJsOpN5Ne8O/LfOZi6uiKPGVZnbr8wedsFry2H+JSCYjbAE8gBC8ipSzTxzyQ9XY2AnXHhc3znKBwdGgE23kIkEx4xg+wUPckrhnL8NKOdKyyBWHjeKkon3odQlxk5HiKsuNpMiO42vSnfnC1SPmiSI8nq9/9rrBXVWYReWJgd7RhaxxxqIiXF32hCjC4zk9Z5ex2y+N9neiRupN+qzwrFWfLCVeX7tUvBSvGzwpX+pNopFSA4g3fP/zB+Pi/1O3ltWLS9v+3FLwNiKPvbrdqMSzVj4TSE5r/6fBt+X6L0tUTsUNBkxGqV6dmLxXmkzEbXjANkC+b+xFuH7pM3Fttz1kSKdalXD8TMVLPn4mtbLTOO9KSdAX1D8KDxI88pKoLzDyp8b0xtjygP5lU0WqjOQU42j4/PRloeC0IbpbCFlYzhW6jZCIWw/iu3lQRrao0R/49OpzLmHI/ra9VG/TfP0eySjvUafH6KpErbDc2i13iMpVDQbZjl9uyRw3N9+qm8NRsVJIlIO+9ybhaSsyxX9/q61hevdUSx5/gWpoyZs6umpH7Nz4MK/c0Na939DPTsjjR+t6Re68LUKhXRSV6Msg9q9b9FMZG306lU70kbIvrH+j0htW6MWf/76u2gS1f6H7keJfGCrz748aTEpswnuZ7iPJXoThOQ3GCUpdO2La2UKDtET0jdXnXmHwH9xeXV8jvqsNSVyGRILqcKNBGnX/cjge+SDpPamYyfht0A16z/usP2689ca3osxYDjCs75yLFhpkzHN61YgaNQuu2O3mDyAR/Rx8bLyJ6TnsyxyMqeQ3YwoLIn8LugpRv2F232c/1d2WiIzQL5cwkkk5MNtY/WOizf7C1ohb75tWlK436XSVN8x3C0x+ztqTxzXwulXi/o5HB10jWc9HK7v1vYjvvI6C7luxCkJOGPplt535M7ehz5602URnSgfqE7JafYpVkM+2q3p/7tHdyONjPg/hu1avrsdbCgsiKWpXljLn56TBLSg1bcQHf6u7MKDA3i+RdOZTrbQzSeX6vf7/YYFphboCPR2cWUG+tHF3h6AWOJiy2yCGZfNLNttqEarev+8lkDEGRbK35hrRqbq7MopeCZcdDHTzrJss4ZpE6hUQxa23l0L6TLlSl13U3H6yxeFeAVFNdDKtp/qsOrtomfn0gbfZ3yuqpZ87yxwwRXdkH5DO7W9qK/y9FFKuMooOxG1rR2yBW0Qhncab0ytBybrszDljbQu4W6HUzs1sHwaxVcgVfRjEViErfReE2Lq7vO+C2Gu+Qh9WLVsG1dWHQUjf2srVQzVyuA+D/MGO3kf7LIhq0+lg+woIUfKzv/6+AiJxrC5OJE8/sLl3QIzFz+Wp9hF/r4Aw0QJruXTG1zuqdTTvN9f/yfYOyD7Dc+vt6IbqjerX1Ny9ZH79Bt24zMZjCvzWhewQY1mWKYmpSvnu0V8/10sgKit00ytmAUCuNNz2lNA7syhHiO4Vz+3OKA9ev9aWcE5UU/dXdcdM+6Gh+oKwmhjL8kzjxOWqLqZsdyq6bUzaEuj2jGl7QrKYJ/OrHVv1M8o3DSnsGqJ6MbLHlKXPNJLtptNGUUP03Xaz4IxoJNTzGQa2v5Wa9Xw9qSfFeo25qwWAqxW69ZVwUblQyJRxlkEMRRouqkiBDE2F+q7IJCnSaqRlQoMVs+Wu142KWbbAVsvVGp9qS3sTs2VZlYtacyYVdpHRb1Qm6zhITGUL3I+0TOgihD+5MJ6la9cPEkvfM7lLv/hLMINzfDBNtt9sUnO64JnS+FLj6Hn6HjH8wYMWQpCKygvds5d69Qsah0Mm84f738z0atn4UqPR6uHsSsEYtO5z3EUZ/F8GhR5c12xcEGrIstQYrTCoZljfmuRpenVTLK8dM/lMyW0zKIc6TR8o508YC1Wv7OGNBvGLDgv6gNpgofchMviDIWDLuNOwdXNn5k2x6/tptwTPN2y66HdGt5239SVRdw872epmROsd4lZDT6Bwv9WFV8qzR0o6/BlCIrZO3yLU0tf2ZQQYtVUP0QedR9nCu/Fur0Fdw58ubsvMobBAr/dJqzPoScYoXve9jJ3uc1TDCPsuf8FBBj0ZM+7Y2Ti1MVXQbQem6mxWeqCHcfpXKV29VRZSpXDgJbXb1teOr1VkbO1h5YoPP98ciKdmqj59lSE6rd+WuPK4/mKI0ka0YvV2ThNXmq6YPZLT7yIovSRa+E3HzP/tM2x0UZkTv2f/Xa7v7Ow8fvfEx+cbdoCwN5QkGqtJa0fsxFYskOs7Ozt9d22c/4loWNq+sb2s8DUSNbR2QKn8ZPXHVXUAIktO7DpcIWSPThvz5StGcf6Tjceq6gAcq95hkAZibkf2WF3Nmqyg8SGGmwhgT0RgDGOO9P0fZvsukuLyuyFi5GDIqd1OjEeKOZNRT4hXQtqB43zE8CbpQV1mjQQIeUs1cW+pyfBkmOTIXt39+xoE0/3aAACTHXGZu22ziGujfbU9z826dmrE7TW1IWr20SmTruMj73PnyD5uVkIxG/GfdmrEXMstb82Xx14tSt0XL+B4xLXGx9kCyYwuc7023t58r2/EeodmGtVb7a0luG/IsLijfm4rRoswt0hObcz//kWlkp1CytyzJo+9ys6Cu73sFbZqxLXmbjvKUfHNTGrXa9fY0qwHVjiXTmREhZJHqgNb1oLBM6WcUwle5Au3sJZ1izlVf0Z3ZWuZZFm8YuCyM44tK7jesbHBznelweiUWm/uTHjaegeTIFlPYgQGzyj6flnmbrAqzpW07HYym5PVtFIA188kP0vw708oFovhwSF9JS3VQpNN9bL/SmvidivEyURhpglzgt+cYqUrMs/OVdDUbRff9qczX3V9m/fzR5vNBncXj5Q+Uq2YrA1n4OxiqGvDOxbMOxOZc6dpibp+t8qCw1ap34/sRArQbzRc+F6F1GWJvrXWfLRdtnXwNq4LcUZ8cD7jOAgZUHPkz+7TuRtIuHbPt7P8NuC2E12IM0pVtmIobC7T4OxR4ZwtlhdqF2Sfs22pGZlTnPGVPHDO3xNJWZXWr9bmehU+dMX/5kijrLRW1eQQZ3zhx7pMGFyYNLlkwISvjhzP2k4q24c3rPbnEh+RQ5zxhef8fAvbM/l+mb/OFo+EzZssUyEM3/5KzqzpzBfTsorzkdisZStGoIcyMHu3zBOPCLxJqkI+EvvuWwe72MjE7J4tHhF41dDkmcoQM2tlt7J7dw8Eg7bMUyvqJR0K4d3tzP0v73NZKAhVbP1ah8JURsThNU8v69Es5WibVDZ3hwA+OSNFKqEIzLBbFz0dsCY+Z5cAHqKYyNWOEJj7Rt75Sg/njYfc+pMlh94Nae+gzc8xw655eMgvA1bFH/7i3fbEBF0IAH/xtYsPbvH3+JEEStNUbkn7uYZ4/A6PiWTa+B1Bv3XxikfEPZI2Q0kqyXXexZEXunsiQX6H1rVJd1SqSyURAAh7yU/UHc0Bm+LKoxABwEOqucgLeZzckefpe3IzuT2eQE48vtn2sRttkus2TVwV/9qc1wEk+R8jGIq3VuLl8hH38L17Iky23Ag9JU4PG6IgFISCUBAKQkEoCAWhIBSEglAQCkJBKAgFoSAUhIJQEApCQSgIBaEgFAS9mjlTESyu+ilCImV8XwRRmu74rrrJxQFtUnr6baUJAEkPCWorvh3H3xoHoE1K/KI0AQGlCck0wHJzKoF34jvIuMT/Dji3PN1y7xoJdWe2cMy309fa0XELAPwuVQNtd3y9HJfc88I4YCibyGs8lAVOdsQX08++4sfQeFjW8Q4kvwON6ZedATl842OiBO+Imn2+n6WuXlp+2Zi5AMivkuF/8uVLQhI83kUv+oOdAsiKFgDhjwVgxANzteeOqAl2HBAAAJ4Ro1zBTiHxRs8v1r56qy7kHTpG8Na6dgCRD3DhmLRNnOeXQxUBkFQYY+uuJgCiuOCJIEQxnk+IqCIAxCX/gnKXdgGiwJ5MfAdIImBIFFe/yeUNElfZjKiK1l1aRJPy4cuZMcif7QQANZm6Rp4eP9CxbVX/bLFb6ge1f0w2ve3PvWqSRSlS+1yLMe92wB5I1SRDQmtleiIjgLxqesbN8QwiUiJ1TWviyAv1w5dfzWo4nkoVd2SDaWq+k+n7tcNaNhz115wdENdq7d3OK09VSXhI0lJ9+ABMck99cZOuQgAlR5b8g08sSlbPYc4sI4O6Iu3xP9TybpMng3ZAms9o21bnpl378tm07CxpG3tY5cZ3tHK9LKhPhaiuMCs/4pYAaKc1aN/ToLS68agSgE9qkxtnZFZ7o5Ln7KmWMYePMn0GAG+luhdQFw8F3PXAAL+Eiy9za+c8Jcryb5u0XqVNAr4wAxlxgboXUJ8DgIAaaY9XAwmoAMg6ACQgnhQANW0vqcTnfOFs17UDTdLfQlUBkCUseaoZkKZwcv96wDVLgtIWP7BK3aCdp8NKAEbV4bybgcg9PzWpkevHPSQA0WIAJTMvmJHQp+HjAeAtALhfGnSTLvFHSNvTl7f5dTUBGHDBJnH+TJXFnkPqFADKoWbwn+0B4BGgaufpKJNfBcgjL7gvZ6UsaYH3NCe7P/WNYk4A1gHA8U0AXC4AOLvzFCs546J0tAIYuH4M3g6wcPnjp2h6ec1okSemJMyWqgJgMA4NHpIlUSgzJrkFhXi/TLbwahXA2Q1a5G3QXnbkInuH5LJs0e1p3UzKaBEC4PiDQvKE2iBw2RQPxHXmvo6UmS6bAIBazQLq+RwAiI0z37GVL9We00jc3OClAMBcm3b1h+/HX0XsnzSgJc1+oD5rx/zjh1JvMH0GgHsWAYhEAAzSmsv9Sxx14+9qKm0EANc94bQTkSSARJMNgiRTzGXl6L9YAOD+BwCcXWaSFFGdChHxeu65gZUKYOCrLKBusCZwYNdeAGQeABzY2WSW9FXzt6pe6cHgTO38Ha+WJCzzCItsuQM0B1ErQ81BrFpnrsmsUyC/GW28FjwK4OvjbMLbUgFAKgfwAzZuV83dudRPZGzULO+htzboEIgaFcYYE31KAA5pPmZtOP7jmZvDYNYAqMqq1Av+mExZO+DGDckh5sDUHVes9zsAwmpFHgugTYInrW1d9n5Ks93p3/adFEDq3s/CceUrA5Ilv/JNrY7GA1C2AIBHBHBn0AmrVX7FXODgoy/fP/gmoDh1vpk8Vsr0XEkUgFLSiJkzElUnNgIoSamMStiymmAHAHjgIXVv8MFkz06KAZC1DwlQrJ88bQdE9gBQVs3Dz3QJPNP97g2lHJitrAS1ZhUWJ3Vw+CwA0qrk4Phx4Ew8O9LVM4GP4h6qds7bOgA4VykAwvecqBFCAKh/Oaa2Z+aBdInpbUgBAK4ZOPEwQgAuWQcAswEgtbNQXZs6+iyyNjn9oj4MAKSuFYB877vAsZucaOzMRk5IZHNhalJP6NgOYIBbywMr9QcwatrdSdvLpVLAnFdidiQUSdsxov1vFgDIAVaC+qUjM42jfp5S8qjOBytbsmQpB+D4LQBILFlfTE13e6d9LKCuaHYChHyVeD8y/G3dybmla9euuTfhbTHvJNMUj9jSXZALn0yUS8FBmIZfJSqkxp+WflQCyJxAwE+SDX/UfDbRV3R71rSCARDp74ivNeRjbX7Ru3p92mF0KgCixo2BslIA4Hr1V2y8rzDNlm1lxOTayALKKsGJnp0588gSUSKeuk1+AAQ84BII4TUIZn9qmP+tbSseF+EpqwmC9SbKyn0eD7CEB8q0Cqs4xgNurc7YY3zyEDgvA8TA8lIB5n6D4eVmKVra7gCAj7RJt45bUvO+v+PiU2dfaO69fPQWaH2F8t2E8NlTLHBy9y3A2fhs2VAWOKmVeeo2bLodQKN25WxLqt+9NGceHnsgaJM8YsLsK02Ayw+5OeElNabNAypNHlUawCFt3n5AeXN8Nj5hfeXmlEBqej/QJgEB7UrKNncFYtP7HZquaQHd4ZgB44+ZIoGMHzLP1Rxq+DoUdOmNglAQCkJBKAgFoSAUhIJQEApCQdB3As9k0yPkA46+U5vprMPY/EBmmV5tdJJDucP08vl5gZxeanp5opMgR+rRjROJc4MIa8wb1n2CgyCxz9cVvrGTXjEQHOyfA8sU8oRpRz8S7UcoCAWhIBSEgvS898vwvVi4uR7evXDZ3qnGnM8usQfCHpvVaxWiDpzVDVcl2/6RYVyuf7bT0Qq5PJd/mC3IPxuInDN4wtkRYu5hW8CpzJnU/FIQCkJBKAgFoSAUhIJQEApCQSgIBaEgFISCUBAKQkEoCAWhIBSEglAQCkJBKAgFoSAUhIJQEO3z/zl0O6eS1eC5AAAAAElFTkSuQmCC" alt="GTA Clipper by Bentsen app icon">
+</div></div>
 
+<section id="features"><div class="wrap">
+<h2>Features</h2>
+<p class="sub">Everything runs on the creator's own computer. The tool handles the repetitive editing work, so the creator can focus on choosing the best moments.</p>
+<div class="grid">
+<div class="card"><h3>Highlight detection</h3><p>Watches the creator's chosen streamers and detects peaks in chat activity and viewer numbers that signal a highlight moment.</p></div>
+<div class="card"><h3>Official Twitch clips</h3><p>Uses Twitch's own clip feature to capture the moment, so the source is always traceable to the original stream.</p></div>
+<div class="card"><h3>Vertical editing</h3><p>Automatically formats each clip as a 1080×1920 video with the streamer's facecam on top and the gameplay below.</p></div>
+<div class="card"><h3>Readable subtitles</h3><p>Generates subtitles locally with speech recognition and filters offensive words before export.</p></div>
+<div class="card"><h3>Copyright checks</h3><p>Detects background music and flags clips that may contain copyrighted songs, before anything is posted.</p></div>
+<div class="card"><h3>Review &amp; post</h3><p>The creator reviews each video in a local dashboard, chooses who can see it and confirms before it is posted to TikTok.</p></div>
+</div>
+</div></section>
+
+<section id="how"><div class="wrap">
 <h2>How it works</h2>
-<ol>
-  <li>Watches selected Twitch streams and detects highlight moments from chat activity.</li>
-  <li>Downloads the official Twitch clip and edits it into a 1080×1920 video with subtitles and streamer credit.</li>
-  <li>The operator reviews the video, chooses the privacy settings, and the tool posts it to the operator's own TikTok account (Content Posting API) and YouTube channel (YouTube Data API).</li>
+<p class="sub">Posting to TikTok always requires the creator's explicit action and consent.</p>
+<ol class="steps">
+<li><b>Choose streamers.</b> The creator adds the Twitch channels they want to follow in the dashboard.</li>
+<li><b>Clips are found and edited.</b> When a highlight is detected, the official Twitch clip is downloaded and edited into a vertical video with subtitles and a credit line (twitch.tv/streamer).</li>
+<li><b>Connect TikTok.</b> The creator signs in with TikTok (Login Kit) and authorizes the app. The dashboard then shows the connected account's name and avatar.</li>
+<li><b>Review the post.</b> For each video, the posting screen shows the video preview and caption, and lets the creator choose the privacy level (nothing is pre-selected), turn comments, Duet and Stitch on or off, and disclose commercial content.</li>
+<li><b>Post.</b> Only when the creator clicks Post is the video uploaded with TikTok's Content Posting API. The dashboard then shows the post status.</li>
 </ol>
-<p>GTA Clipper is not available to the public. It runs only on the operator's own computer.</p>
+</div></section>
 
-<footer>
-  <a href="privacy.html">Privacy Policy</a>
-  <a href="terms.html">Terms of Service</a>
-  <a href="https://www.tiktok.com/legal/terms-of-service">TikTok Terms of Service</a>
-  <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>
-  <a href="https://policies.google.com/privacy">Google Privacy Policy</a>
-  <br>Contact: <a href="mailto:bentsen@nextlevel-sales.dk">bentsen@nextlevel-sales.dk</a>
+<section id="responsible"><div class="wrap">
+<h2>Responsible use</h2>
+<div class="grid">
+<div class="card"><h3>Credit every streamer</h3><p>Every caption names the streamer and links to their Twitch channel. Streamers can ask for any video to be removed at any time.</p></div>
+<div class="card"><h3>Own accounts only</h3><p>The tool only posts to TikTok accounts the signed-in creator owns. It never posts without the creator's confirmation.</p></div>
+<div class="card"><h3>Minimal data</h3><p>Only the scopes needed to post are requested. Tokens and data stay on the creator's own computer. No ads, no tracking.</p></div>
+</div>
+<p style="margin-top:26px" class="badges"><span>TikTok Login Kit</span><span>TikTok Content Posting API (Direct Post)</span><span>Scopes: user.info.basic, video.publish</span><span>YouTube Data API</span><span>Twitch API</span></p>
+</div></section>
+
+<section id="faq" class="faq"><div class="wrap">
+<h2>Frequently asked questions</h2>
+<details><summary>Who is GTA Clipper by Bentsen for?</summary><p>It is a personal tool used by its operator to run a GTA&nbsp;6 highlights account. It is not sold or offered as a public service.</p></details>
+<details><summary>Does it post to TikTok automatically without my approval?</summary><p>No. Each post is reviewed in the posting screen, where the creator selects the privacy level and interaction settings and confirms by clicking Post.</p></details>
+<details><summary>What TikTok data does it use?</summary><p>Only the connected account's basic profile (display name, avatar, open ID) and the creator information needed to show the posting options. See the <a href="privacy.html">Privacy Policy</a>.</p></details>
+<details><summary>How do I disconnect TikTok?</summary><p>In the TikTok app go to Settings and privacy → Security and permissions → Apps and services permissions, and remove the app. Stored tokens are deleted within 7 days.</p></details>
+<details><summary>I am a streamer and want a video removed.</summary><p>Email <a href="mailto:bentsen@nextlevel-sales.dk">bentsen@nextlevel-sales.dk</a> with a link to the video. We remove it within 48 hours.</p></details>
+</div></section>
+
+<section id="contact"><div class="wrap">
+<h2>About &amp; contact</h2>
+<p class="sub">GTA Clipper by Bentsen is built and operated by Tobias Bentsen, an independent developer in Denmark.</p>
+<p>Questions, removal requests or privacy requests: <a href="mailto:bentsen@nextlevel-sales.dk">bentsen@nextlevel-sales.dk</a>. We aim to reply within 2 business days.</p>
+</div></section>
+<footer><div class="wrap">
+<div>© 2026 GTA Clipper by Bentsen · Operated by Tobias Bentsen, Denmark · <a href="mailto:bentsen@nextlevel-sales.dk">bentsen@nextlevel-sales.dk</a></div>
+<div><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a><a href="index.html#contact">Contact</a></div>
+</div>
+<div class="wrap" style="margin-top:14px;font-size:13px">GTA Clipper by Bentsen is an independent project and is not affiliated with, endorsed by or sponsored by Rockstar Games, Take-Two Interactive, TikTok, Twitch or Google. Grand Theft Auto and GTA are trademarks of Take-Two Interactive.</div>
 </footer>
-</main>
 </body>
 </html>
